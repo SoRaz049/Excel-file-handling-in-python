@@ -4,7 +4,7 @@ excel_sheet= load_workbook ("D:\\Projects\\Python\\Excel file handling\\account_
 
 work_sheet= excel_sheet.active
 
-sheet1= excel_sheet['Sheet1']
+#s1= excel_sheet['Sheet1']
 
 sender=input("Enter the account number of the sender: ")
 reciver=input("Enter the account number of the reciptant: ")

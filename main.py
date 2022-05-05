@@ -1,6 +1,6 @@
-import openpyxl
+from openpyxl import Workbook, load_workbook
 
-excel_sheet= openpyxl.load_workbook ("D:\\Projects\\Python\\Excel file handling\\account_sheet.xlsx")
+excel_sheet= load_workbook ("D:\\Projects\\Python\\Excel file handling\\account_sheet.xlsx")
 
 work_sheet= excel_sheet.active
 

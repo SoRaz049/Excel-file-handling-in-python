@@ -7,11 +7,6 @@ wb= load_workbook ("D:\\Projects\\Python\\Excel file handling\\account_sheet.xls
 
 ws= wb.active
 
-#s1= excel_sheet['Sheet1']
-
-
-
-#eciver=input("Enter the account number of the reciptant: ")
 
 for col in range (2,3):
     for row in range (2,11):
@@ -23,11 +18,11 @@ for col in range (2,3):
 
 print(acc_list)
         
-sender=int(input("Enter the account number of the sender: "))
+sender=int (input("Enter the account number of the sender: "))
+receiver=int (input("Enter the account number of the reciptant: "))
 
 if sender in acc_list:
-    print ("valid")
 
-else:
-    print("Invalid")
-    
+    if receiver in acc_list:
+        
+        
